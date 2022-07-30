@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justify content</title>
+
+    <Style>
+        .container{
+            display: flex;
+            max-width: 400px;
+            border: black solid 1px;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+
+        .item{
+            background: brown;
+            margin: 5px;
+            color: azure;
+        }
+
+        .flex-start{
+            justify-content: flex-start;
+        }
+
+        .flex-end{
+            justify-content: flex-end;
+        }
+        .center{
+            justify-content: center;
+        }
+        .space-between{
+            justify-content: space-between;
+        }
+
+        .space-around{
+            justify-content: space-around;
+        }
+
+        .column{
+            flex-direction: column;
+            min-height: 200px;
+        }
+
+
+
+    </Style>
+</head>
+<body>
+    <h1>Row</h1>
+    <p>Flex-Start</p>
+    <div class="container flex-start">
+        <div class="item">1</div>
+        <div class="item">2algos</div>
+        <div class="item">3coisas</div>
+        <div class="item">4tralhas</div>
+    </div>
+
+    <p>Flex-end</p>
+    <div class="container flex-end">
+        <div class="item">1</div>
+        <div class="item">2algos</div>
+        <div class="item">3coisas</div>
+        <div class="item">4tralhas</div>
+    </div>
+
+    <p>Center</p>
+    <div class="container center">
+        <div class="item">1</div>
+        <div class="item">2algos</div>
+        <div class="item">3coisas</div>
+        <div class="item">4tralhas</div>
+    </div>
+
+    <p>space-between</p>
+    <div class="container space-between">
+        <div class="item">1</div>
+        <div class="item">2algos</div>
+        <div class="item">3coisas</div>
+        <div class="item">4tralhas</div>
+    </div>
+
+    <p>space-around</p>
+    <div class="container space-around">
+        <div class="item">1</div>
+        <div class="item">2algos</div>
+        <div class="item">3coisas</div>
+        <div class="item">4tralhas</div>
+    </div>
+
+    <h1>Colunm</h1>
+
+    <p>Flex-Start Column</p>
+    <div class="container flex-start column">
+        <div class="item">1</div>
+        <div class="item">2algos</div>
+        <div class="item">3coisas</div>
+        <div class="item">4tralhas</div>
+    </div>
+
+    <p>Flex-end</p>
+    <div class="container flex-end column">
+        <div class="item">1</div>
+        <div class="item">2algos</div>
+        <div class="item">3coisas</div>
+        <div class="item">4tralhas</div>
+    </div>
+
+    <p>Center</p>
+    <div class="container center column">
+        <div class="item">1</div>
+        <div class="item">2algos</div>
+        <div class="item">3coisas</div>
+        <div class="item">4tralhas</div>
+    </div>
+
+    <p>space-between</p>
+    <div class="container space-between column">
+        <div class="item">1</div>
+        <div class="item">2algos</div>
+        <div class="item">3coisas</div>
+        <div class="item">4tralhas</div>
+    </div>
+
+    <p>space-around</p>
+    <div class="container space-around column">
+        <div class="item">1</div>
+        <div class="item">2algos</div>
+        <div class="item">3coisas</div>
+        <div class="item">4tralhas</div>
+    </div>
+
+</body>
+</html>
